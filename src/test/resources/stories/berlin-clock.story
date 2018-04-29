@@ -44,5 +44,38 @@ RRRR
 OOOOOOOOOOO
 OOOO
 
+Scenario: Random early morning time
+When the time is 03:58:33
+Then the clock should look like
+O
+OOOO
+RRRO
+YYRYYRYYRYY
+YYYO
 
+Scenario: Random morning time
+When the time is 10:15:23
+Then the clock should look like
+O
+RROO
+OOOO
+YYROOOOOOOO
+OOOO
 
+Scenario: Random afternoon time
+When the time is 16:47:18
+Then the clock should look like
+Y
+RRRO
+ROOO
+YYRYYRYYROO
+YYOO
+
+Scenario: Random evening time
+When the time is 21:30:55
+Then the clock should look like
+O
+RRRR
+ROOO
+YYRYYROOOOO
+OOOO
